@@ -101,9 +101,6 @@ func (m *Mock) Add(d time.Duration) {
 	m.mu.Lock()
 	m.now = t
 	m.mu.Unlock()
-
-	// Give a small buffer to make sure that other goroutines get handled.
-	gosched()
 }
 
 // Set sets the current time of the mock clock to a specific one.
