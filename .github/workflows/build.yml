@@ -17,7 +17,7 @@ jobs:
         # versions. If some change requires bumping the "earliest" Go versiion,
         # that's fine - just include that in the commit description so that
         # users are aware.
-        go: ["1.16.x", "1.19.x", "1.20.x"]
+        go: ["1.21.x", "1.22.x"]
 
     steps:
     - uses: actions/checkout@v2

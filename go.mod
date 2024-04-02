@@ -1,3 +1,3 @@
-module github.com/benbjohnson/clock
+module github.com/0xgirish/clock
 
-go 1.15
+go 1.21
