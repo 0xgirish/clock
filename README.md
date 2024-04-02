@@ -7,8 +7,6 @@ Clock is a small library for mocking time in Go. It provides an interface
 around the standard library's [`time`][time] package so that the application
 can use the realtime clock while tests can use the mock clock.
 
-This module is no longer maintained.
-
 [time]: https://pkg.go.dev/github.com/0xgirish/clock
 
 ## Usage
